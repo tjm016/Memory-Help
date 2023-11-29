@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
+#app {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 50px;
+}
+
+input, button {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%; 
+    text-align: center;
+}
+
+#btnAgregar, .botones-container button {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.recordatorio-container {
+    border: 12px solid #555;
+    padding: 15px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+#btnInfo {
+    background-color: #5bde8d; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
